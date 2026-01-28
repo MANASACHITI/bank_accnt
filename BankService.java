@@ -38,7 +38,7 @@ public class BankService {
         System.out.println("Initial Balance: " + acc.getBalance()); 
  
         // Perform operations 
-        acc.deposit(300); 
+        acc.deposit(400); 
         System.out.println("Balance after deposit of 500: " + acc.getBalance()); 
  
         acc.withdraw(200); 
